@@ -35,3 +35,4 @@ pytz==2025.2
 click==8.1.7
 Jinja2==3.1.2
 MarkupSafe==2.1.5
+termcolor==2.3.0
