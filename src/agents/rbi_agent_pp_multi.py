@@ -146,23 +146,23 @@ rate_limiter = Semaphore(MAX_PARALLEL_THREADS)
 # Option 2: Grok 4 Fast Reasoning (xAI's blazing fast model!)
 
 # 🧠 RESEARCH
-RESEARCH_CONFIG = {"type": "claude", "name": "claude-opus-4-5-20251101"}
+RESEARCH_CONFIG = {"type": "gemini", "name": "gemini-3-flash-preview"}
 # RESEARCH_CONFIG = {"type": "xai", "name": "grok-4-fast-reasoning"}
 
 # 💻 BACKTEST CODE GEN
-BACKTEST_CONFIG = {"type": "claude", "name": "claude-opus-4-5-20251101"}
+BACKTEST_CONFIG = {"type": "gemini", "name": "gemini-3-flash-preview"}
 # BACKTEST_CONFIG = {"type": "xai", "name": "grok-4-fast-reasoning"}
 
 # 🐛 DEBUGGING
-DEBUG_CONFIG = {"type": "claude", "name": "claude-opus-4-5-20251101"}
+DEBUG_CONFIG = {"type": "gemini", "name": "gemini-3-flash-preview"}
 # DEBUG_CONFIG = {"type": "xai", "name": "grok-4-fast-reasoning"}
 
 # 📦 PACKAGE CHECK
-PACKAGE_CONFIG = {"type": "claude", "name": "claude-opus-4-5-20251101"}
+PACKAGE_CONFIG = {"type": "gemini", "name": "gemini-3-flash-preview"}
 # PACKAGE_CONFIG = {"type": "xai", "name": "grok-4-fast-reasoning"}
 
 # 🚀 OPTIMIZATION
-OPTIMIZE_CONFIG = {"type": "claude", "name": "claude-opus-4-5-20251101"}
+OPTIMIZE_CONFIG = {"type": "gamini", "name": "gemini-3-flash-preview"}
 # OPTIMIZE_CONFIG = {"type": "xai", "name": "grok-4-fast-reasoning"}
 
 # 🎯 PROFIT TARGET CONFIGURATION
